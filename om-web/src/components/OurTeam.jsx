@@ -9,12 +9,7 @@ const teamMembers = [
     img: './sudhansu.jpeg',
     desc: 'Bringing stories to life through expert camera work.',
   },
-  {
-    name: 'Ketan',
-    role: 'Video Editor',
-    img: './ketan.jpeg',
-    desc: 'Shaping raw footage into captivating visual stories.',
-  },
+ 
   {
     name: 'Aman',
     role: 'Graphic Designer',
@@ -28,7 +23,7 @@ const OurTeam = () => {
     <div className="w-full h-full md:py-6 py-4 px-4 flex flex-col items-center text-center">
       <h2 className="text-4xl font-extrabold mb-2 text-primary drop-shadow-lg tracking-wide">Our Team</h2>
       <p className="mb-10 text-gray-700 text-lg">Meet the talented individuals behind our success.</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-full max-w-5xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 w-full max-w-5xl ">
         {teamMembers.map((member, idx) => (
           <div
           data-aos="fade-right"
